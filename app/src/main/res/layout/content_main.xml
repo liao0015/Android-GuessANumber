@@ -17,7 +17,7 @@
         android:src="@drawable/icon1"
         android:layout_below="@+id/textView"
         android:layout_alignEnd="@+id/guessBtn"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
         android:layout_alignStart="@+id/userInput" />
 
     <ImageView
@@ -28,7 +28,7 @@
         android:src="@drawable/icon2"
         android:layout_below="@+id/textView"
         android:layout_alignEnd="@+id/guessBtn"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
         android:layout_alignStart="@+id/userInput" />
 
     <ImageView
@@ -39,7 +39,7 @@
         android:src="@drawable/icon3"
         android:layout_below="@+id/textView"
         android:layout_alignEnd="@+id/guessBtn"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
         android:layout_alignStart="@+id/userInput" />
 
     <ImageView
@@ -50,7 +50,7 @@
         android:src="@drawable/icon4"
         android:layout_below="@+id/textView"
         android:layout_alignEnd="@+id/guessBtn"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
         android:layout_alignStart="@+id/userInput" />
 
     <ImageView
@@ -61,7 +61,7 @@
         android:src="@drawable/icon5"
         android:layout_below="@+id/textView"
         android:layout_alignEnd="@+id/guessBtn"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
         android:layout_alignStart="@+id/userInput" />
 
     <ImageView
@@ -72,7 +72,7 @@
         android:src="@drawable/icon6"
         android:layout_below="@+id/textView"
         android:layout_alignEnd="@+id/guessBtn"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
         android:layout_alignStart="@+id/userInput" />
 
     <EditText
@@ -116,15 +116,15 @@
 
     <TextView
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="35dp"
         android:id="@+id/output"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:layout_below="@+id/resetBtn"
         android:layout_centerHorizontal="true"
         android:background="#c93636"
         android:textColor="#ffffff"
         android:textSize="15dp"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textStyle="bold" />
 
     <TextView

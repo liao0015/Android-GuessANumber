@@ -266,7 +266,7 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), "You Win (finally)!  Total guesses: " + guessCount, Toast.LENGTH_SHORT).show();
                         winLog.setText("You Win (finally)!  Total guesses: " + guessCount);
                     }
-                    outputLog.setText("Start a New Game!");
+                    outputLog.setText("Press Start to start a New Game!");
                     guessCount = 0;
                     userInput.setEnabled(false);
                 }
