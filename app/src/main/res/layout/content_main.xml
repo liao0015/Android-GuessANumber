@@ -15,7 +15,7 @@
         android:id="@+id/aiImage"
         android:background="#ffffff"
         android:src="@drawable/icon1"
-        android:layout_below="@+id/output"
+        android:layout_below="@+id/textView"
         android:layout_alignEnd="@+id/guessBtn"
         android:layout_marginTop="100dp"
         android:layout_alignStart="@+id/userInput" />
@@ -26,7 +26,7 @@
         android:id="@+id/aiImage2"
         android:background="#ffffff"
         android:src="@drawable/icon2"
-        android:layout_below="@+id/output"
+        android:layout_below="@+id/textView"
         android:layout_alignEnd="@+id/guessBtn"
         android:layout_marginTop="100dp"
         android:layout_alignStart="@+id/userInput" />
@@ -37,7 +37,7 @@
         android:id="@+id/aiImage3"
         android:background="#ffffff"
         android:src="@drawable/icon3"
-        android:layout_below="@+id/output"
+        android:layout_below="@+id/textView"
         android:layout_alignEnd="@+id/guessBtn"
         android:layout_marginTop="100dp"
         android:layout_alignStart="@+id/userInput" />
@@ -48,7 +48,7 @@
         android:id="@+id/aiImage4"
         android:background="#ffffff"
         android:src="@drawable/icon4"
-        android:layout_below="@+id/output"
+        android:layout_below="@+id/textView"
         android:layout_alignEnd="@+id/guessBtn"
         android:layout_marginTop="100dp"
         android:layout_alignStart="@+id/userInput" />
@@ -59,7 +59,7 @@
         android:id="@+id/aiImage5"
         android:background="#ffffff"
         android:src="@drawable/icon5"
-        android:layout_below="@+id/output"
+        android:layout_below="@+id/textView"
         android:layout_alignEnd="@+id/guessBtn"
         android:layout_marginTop="100dp"
         android:layout_alignStart="@+id/userInput" />
@@ -70,7 +70,7 @@
         android:id="@+id/aiImage6"
         android:background="#ffffff"
         android:src="@drawable/icon6"
-        android:layout_below="@+id/output"
+        android:layout_below="@+id/textView"
         android:layout_alignEnd="@+id/guessBtn"
         android:layout_marginTop="100dp"
         android:layout_alignStart="@+id/userInput" />
@@ -85,8 +85,8 @@
         android:layout_marginStart="57dp"
         android:textAlignment="center"
         android:textColor="#ffffff"
-        android:textStyle="bold" />
-        <!--android:inputType="number"-->
+        android:textStyle="bold"
+        android:inputType="number"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -133,6 +133,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="A Worthy Opponent"
         android:id="@+id/textView"
+        android:layout_below="@+id/winMessage"
         android:layout_centerVertical="true"
         android:textSize="18dp"
         android:textAlignment="center"
@@ -144,7 +145,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/winMessage"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/output"
         android:layout_centerHorizontal="true"
         android:textColor="#fe0000"
         android:textSize="20dp"
